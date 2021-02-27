@@ -5,9 +5,36 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-content: normal;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-between;
+
+}
+
 .top-logo {
     background-color: #063C5E;
-    padding: 10px 0px 15px 15px;
+    padding: 0px;
     width: 100%;
     height:100%;
 }
@@ -89,6 +116,33 @@ p {
     white-space: nowrap;
 }
 
+.closing {
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start; */
+}
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
 
 .footer {
     background-color:#063C5E; 
@@ -97,7 +151,7 @@ p {
     width: 100%;
     height: 100%;
     border-width: 5px 0px 0px 0px;
-    padding-left: 30px;
+    padding-left: 0px;
     color: #FFFFFF;
 }
 
